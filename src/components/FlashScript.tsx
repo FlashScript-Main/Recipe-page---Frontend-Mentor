@@ -2,7 +2,7 @@
 const FlashScript = () => {
 
     return (
-        <div className="sticky inset-0 bg-transparent">
+        <div className="fixed inset-0 bg-transparent">
             <a 
                 href="https://github.com/FlashScript-Main/Product-Preview-Card-Component---Frontend-Mentor"
                 target="_blank"
