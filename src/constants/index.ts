@@ -49,32 +49,32 @@ const instructions: InstructionsType[] = [
     {
         id: 1,
         bold: "Beat the eggs:",
-        normal: "In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture."
+        normal: " In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture."
     },
     {
         id: 2,
         bold: "Heat the pan:",
-        normal: "Place a non-stick frying pan over medium heat and add butter or oil."
+        normal: " Place a non-stick frying pan over medium heat and add butter or oil."
     },
     {
         id: 3,
         bold: "Cook the omelette:",
-        normal: "Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface."
+        normal: " Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface."
     },
     {
         id: 4,
         bold: "Add fillings (optional):",
-        normal: "When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette."
+        normal: " When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette."
     },
     {
         id: 5,
         bold: "Fold and serve:",
-        normal: "As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate."
+        normal: " As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate."
     },
     {
         id: 6,
         bold: "Enjoy:",
-        normal: "Serve hot, with additional salt and pepper if needed."
+        normal: " Serve hot, with additional salt and pepper if needed."
     },
 ]
 const nutritionTitle: StringType = "Nutrition";
@@ -84,21 +84,25 @@ const nutritions: NutritionsType[] = [
         id: 1,
         serving: "Calories",
         value: "277kcal",
+        hr: true
     },
     {
         id: 2,
         serving: "Carbs",
         value: "0g",
+        hr: true
     },
     {
         id: 3,
         serving: "Protein",
         value: "20g",
+        hr: true
     },
     {
         id: 4,
         serving: "Fat",
         value: "22g",
+        hr: false
     },
     
 ]

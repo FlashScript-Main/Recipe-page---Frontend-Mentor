@@ -10,10 +10,18 @@
     @apply text-primary-nutmeg text-sm;
 }
 
+.instructions_li::marker {
+    @apply text-primary-nutmeg text-sm font-bold font-outfit;
+}
+
 .bullet_mover_preparation {
     @apply relative left-3;
 }
 
 .bullet_mover_ingredients {
+    @apply relative left-3;
+}
+
+.bullet_mover_instructions {
     @apply relative left-3;
 }

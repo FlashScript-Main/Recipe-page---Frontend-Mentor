@@ -21,4 +21,5 @@ export type NutritionsType = {
     id: number;
     serving: string;
     value: string;
+    hr: boolean
 }
