@@ -4,21 +4,21 @@ import { ingredients, ingredientTitle, instructions, instructionTitle, nutrition
 const RecipePage = () => {
 
     return (
-        <div className={`w-full bg-neutral-white |  |  | `}>
+        <div className={`w-full md:max-w-[48rem] md:px-10 md:pt-8 md:my-[7rem] | bg-neutral-white | md:rounded-2xl | `}>
             <div className={` |  |  | `}>
                 <img 
                     src={omeletteImage} 
                     alt="Omelette Image" 
-                    className={` |  | object-cover object-center | `}
+                    className={` |  | object-cover object-center md:rounded-xl | `}
                 />
             </div>
 
-            <div className={`pl-8 pr-3 py-10 |  |  | `}>
+            <div className={`pl-8 pr-3 md:pl-0 md:pr-0 py-10 |  |  | `}>
                 <h1 className={`mb-6 | text-neutral-dark-charcoal text-4xl font-young-serif font-normal leading-9 |  | `}>
                     {omeletteTitle}
                 </h1>
 
-                <p className={`mb-6 | text-base text-neutral-wenge-brown font-outfit font-normal |  | `}>
+                <p className={`mb-6 md:pr-6 | text-base text-neutral-wenge-brown font-outfit font-normal |  | `}>
                     {omelettedescription}
                 </p>
 
@@ -43,7 +43,7 @@ const RecipePage = () => {
                 </div>
 
                 <div>
-                    <h3 className={`mb-3 | text-2xl text-primary-nutmeg font-young-serif font-normal |  | `}>
+                    <h3 className={`mb-3 | text-2xl md:text-[1.7rem] text-primary-nutmeg font-young-serif font-normal |  | `}>
                         {ingredientTitle}
                     </h3>
 
@@ -64,11 +64,11 @@ const RecipePage = () => {
                 <hr className={`my-6 |  |  | `} />
 
                 <div>
-                    <h3 className={`mb-3 | text-2xl text-primary-nutmeg font-young-serif font-normal |  | `}>
+                    <h3 className={`mb-3 | text-2xl md:text-[1.7rem] text-primary-nutmeg font-young-serif font-normal |  | `}>
                         {instructionTitle}
                     </h3>
 
-                    <ul className={`pl-6 pr-5 space-y-[6px] |  |  | `}>
+                    <ul className={`pl-6 pr-5 md:pr-12 space-y-[6px] |  |  | `}>
                         {instructions.map((item) => (
                             <li
                                 key={item.id}
@@ -86,7 +86,7 @@ const RecipePage = () => {
                 <hr className={`my-6 |  |  | `} />
                 
                 <div>
-                    <h3 className={`mb-3 | text-2xl text-primary-nutmeg font-young-serif font-normal |  | `}>
+                    <h3 className={`mb-3 | text-2xl md:text-[1.7rem] text-primary-nutmeg font-young-serif font-normal |  | `}>
                         {nutritionTitle}
                     </h3>
 
@@ -94,11 +94,10 @@ const RecipePage = () => {
                         {nutritionInfo}
                     </p>
 
-                    <div className={`mb-2 |  |  | `}>
+                    <div className={`mb-2 md:mb-0 |  |  | `}>
                         {nutritions.map((item) => (
                             <div 
                                 key={item.id}
-                                
                             >   
                                 <div className={`px-6 |  | flex  | `}>
                                     <span className={` | text-base text-neutral-wenge-brown font-outfit font-normal | basis-1/2 | `}>{item.serving}</span>

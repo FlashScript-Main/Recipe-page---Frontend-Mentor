@@ -15,13 +15,13 @@
 }
 
 .bullet_mover_preparation {
-    @apply relative left-3;
+    @apply relative left-3 md:left-4;
 }
 
 .bullet_mover_ingredients {
-    @apply relative left-3;
+    @apply relative left-3 md:left-4;
 }
 
 .bullet_mover_instructions {
-    @apply relative left-3;
+    @apply relative left-3 md:left-4;
 }
