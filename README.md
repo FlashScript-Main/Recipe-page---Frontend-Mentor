@@ -1,5 +1,5 @@
 <!-- Remove (👈🏻ChangeThis) -->
-❤️🔥🔗[Live Website](https://flashscript-productpreviewcardcompone.netlify.app/)🔗🔥❤️
+❤️🔥🔗[Live Website](https://flashscript-recipepage.netlify.app/)🔗🔥❤️
 
 # Frontend Mentor 🧭- Recipe page
 ![Design preview for the Blog preview card coding challenge](./src/assets/screenshots/desktop-preview.jpg)
