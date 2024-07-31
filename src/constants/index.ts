@@ -1,7 +1,9 @@
-const omeletteTitle = "Simple Omelette Recipe";
-const omelettedescription = "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.";
-const preparTime = "Preparation time";
-const preparInfo = [
+import { IngredientsType, InstructionsType, NutritionsType, PreparInfoType, StringType } from "../types";
+
+const omeletteTitle: StringType = "Simple Omelette Recipe";
+const omelettedescription: StringType = "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.";
+const preparTime: StringType = "Preparation time";
+const preparInfo: PreparInfoType[] = [
     {
         id: 1, 
         bold: "Total:", 
@@ -18,8 +20,8 @@ const preparInfo = [
         normal: "5 minutes"
     },
 ];
-const ingredientTitle = "Ingredients";
-const ingredients = [
+const ingredientTitle: StringType = "Ingredients";
+const ingredients: IngredientsType[] = [
     {
         id: 1,
         text: "2-3 large eggs"
@@ -42,8 +44,8 @@ const ingredients = [
     },
 ]
 
-const instructionTitle = "Instructions";
-const instructions = [
+const instructionTitle: StringType = "Instructions";
+const instructions: InstructionsType[] = [
     {
         id: 1,
         bold: "Beat the eggs:",
@@ -75,9 +77,9 @@ const instructions = [
         normal: "Serve hot, with additional salt and pepper if needed."
     },
 ]
-const nutritionTitle = "Nutrition";
-const nutritionInfo = "The table below shows nutritional values per serving without the additional fillings."
-const nutritions = [
+const nutritionTitle: StringType = "Nutrition";
+const nutritionInfo: StringType = "The table below shows nutritional values per serving without the additional fillings."
+const nutritions: NutritionsType[] = [
     {
         id: 1,
         serving: "Calories",
