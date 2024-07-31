@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.preparation_li::marker {
+    @apply text-primary-dark-raspberry text-sm;
+}
+
+.ingredients_li::marker {
+    @apply text-primary-nutmeg text-sm;
+}
+
+.bullet_mover_preparation {
+    @apply relative left-3;
+}
+
+.bullet_mover_ingredients {
+    @apply relative left-3;
+}

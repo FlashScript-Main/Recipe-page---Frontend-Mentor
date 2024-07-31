@@ -1,7 +1,7 @@
 import FlashScript from "./FlashScript";
-import ProductCard from "./ProductCard";
+import RecipePage from "./RecipePage";
 
 export {
     FlashScript,
-    ProductCard
+    RecipePage
 }

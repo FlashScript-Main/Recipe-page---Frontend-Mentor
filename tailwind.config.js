@@ -20,8 +20,8 @@ export default {
           'neutral-rose-white': 'hsl(330, 100%, 98%)',
           'neutral-eggshell': 'hsl(30, 54%, 90%)',
           'neutral-light-grey': 'hsl(30, 18%, 87%)',
-          'neutral-wenge-brown:': 'hsl(30, 10%, 34%)',
-          'neutral-dark-charcoal:': 'hsl(24, 5%, 18%)',
+          'neutral-wenge-brown': 'hsl(30, 10%, 34%)',
+          'neutral-dark-charcoal': 'hsl(24, 5%, 18%)',
       },
       screens: {
         // @media (min-width: ...) {}

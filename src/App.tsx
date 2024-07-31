@@ -1,10 +1,10 @@
-import { FlashScript, ProductCard } from "./components"
+import { FlashScript, RecipePage } from "./components"
 
 const App = () => {
 
     return (
-        <div className="relative w-full h-screen bg-primary-cream grid place-content-center">
-            <ProductCard />
+        <div className="relative w-full bg-neutral-eggshell grid place-content-center">
+            <RecipePage />
 
             <FlashScript />
         </div>

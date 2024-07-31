@@ -7,17 +7,17 @@ const preparInfo: PreparInfoType[] = [
     {
         id: 1, 
         bold: "Total:", 
-        normal: "Approximately 10 minutes"
+        normal: " Approximately 10 minutes"
     },
     {
         id: 2, 
         bold: "Preparation:", 
-        normal: "5 minutes"
+        normal: " 5 minutes"
     },
     {
         id: 3, 
         bold: "Cooking:", 
-        normal: "5 minutes"
+        normal: " 5 minutes"
     },
 ];
 const ingredientTitle: StringType = "Ingredients";
